@@ -4,10 +4,7 @@ public:
         int n=nums.size();
         int sum=0,left=0;
         
-        if(n==1&&n==2){
-            return -1;
-        }
-        
+
  
         int rightsum = accumulate(nums.begin(),nums.end(),0);
         int leftsum=0;
