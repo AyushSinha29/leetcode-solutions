@@ -12,13 +12,13 @@ public:
   
  
 int ans;
-    unordered_map<int, int>:: iterator itr;
-    for (itr=m.begin(); itr!=m.end(); itr++)
+
+    for (auto it : m)
     {
 
-        if (itr->second > 1)
+        if (it.second > 1)
         
-            ans= itr->first;
+            ans= it.first;
           
         
     }
