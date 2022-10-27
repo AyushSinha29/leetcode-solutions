@@ -2,6 +2,8 @@ class Solution {
 public:
     int findPeakElement(vector<int>& nums) {
         int l=0,r=nums.size()-1;
+        //modified binary search
+        
         while(l<r)
         {
             int mid=(l+r)/2;
